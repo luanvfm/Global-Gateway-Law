@@ -105,11 +105,14 @@ body, html {
 .aboutcontainer {
     display: flex;
     color: #FFD60A;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-left: 80px;
     position: relative;
-    flex-direction: column;
     
+.textandiconscontainer {
+    display: flex;
+    flex-direction: row;
+}    
    
 }
 .aboutcontainer h1 {
@@ -162,17 +165,16 @@ body, html {
     font-weight: 500;
 }
 .imagecontainer {
-    max-width: 45%; /* A imagem ocupará até 45% do espaço restante */
+    max-width: 25%; /* A imagem ocupará até 45% do espaço restante */
     right: 225px; /* Espaçamento entre o texto e a imagem */
-    bottom: -90vh;
+    
     display: flex;
-    justify-content: flex-end; /* Garante que a imagem se alinhe à direita */
-    position: absolute;
+    padding: 50px;
+    
 }
 
 .imagecontainer img {
-    width: 586;
-    height: 788;
+    
     border-radius: 30px; /* Para arredondar os cantos da imagem */
     border: 2rem solid;
     border-color: #FFFFFF;
